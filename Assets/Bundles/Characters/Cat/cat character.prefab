@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 465740}
-  - component: {fileID: 9501716}
   - component: {fileID: 11427384}
   - component: {fileID: 82000013563701790}
   - component: {fileID: 114852966775052252}
@@ -40,28 +39,6 @@ Transform:
   - {fileID: 4000012985580144}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &9501716
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199232}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: 2b755775ae966024fab169f5ae2e95d6, type: 3}
-  m_Controller: {fileID: 9100000, guid: b468e53677ceeeb49bcda5deb95250aa, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 0
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &11427384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -607,6 +584,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 465740}
     m_Modifications:
+    - target: {fileID: 1919328084348687264, guid: 70b314ff43a85bd4ab159bc148bcf6af,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b468e53677ceeeb49bcda5deb95250aa, type: 2}
     - target: {fileID: 5092038220259020979, guid: 70b314ff43a85bd4ab159bc148bcf6af,
         type: 3}
       propertyPath: m_LocalPosition.x
